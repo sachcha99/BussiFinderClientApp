@@ -46,7 +46,6 @@
     "react-type-animation": "^2.1.1",
     "react-typed": "^1.2.0",
     "tsparticles": "^2.3.1",
-    "export-to-csv-file": "^0.2.2"
   },
   "scripts": {
     "start": "react-scripts start",
