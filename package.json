@@ -34,7 +34,13 @@
     "react-google-maps": "^9.4.5",
     "react-scripts": "5.0.1",
     "redux": "^4.2.0",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "react-icons": "^4.6.0",
+    "react-minimal-pie-chart": "^8.3.0",
+    "react-particles": "^2.3.1",
+    "react-redux": "^8.0.4",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^6.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
