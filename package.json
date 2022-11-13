@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
+    "@fontsource/roboto": "^4.5.7",
+    "@ubilabs/google-maps-react-hooks": "^1.5.1",
     "@emotion/styled": "^11.10.5",
     "@mui/icons-material": "^5.10.9",
     "@mui/lab": "^5.0.0-alpha.107",
