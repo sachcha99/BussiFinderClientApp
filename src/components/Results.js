@@ -52,14 +52,14 @@ import { AiOutlineClockCircle } from 'react-icons/ai';
 
 import { jsPDF } from "jspdf";
 
-ChartJS.register(
-    CategoryScale,
-    LinearScale,
-    BarElement,
-    Title,
-    Tooltip,
-    Legend
-);
+// ChartJS.register(
+//     CategoryScale,
+//     LinearScale,
+//     BarElement,
+//     Title,
+//     Tooltip,
+//     Legend
+// );
 
 export const options = {
     responsive: true,
@@ -546,7 +546,7 @@ const Results = () => {
                         padding: "10px",
                         boxSizing: "border-box",
                     }}>
-                    <Bar options={options} data={data} />
+                    {/* <Bar options={options} data={data} /> */}
                     {/* <Chart
                         chartType="Bar"
                         // width="100%"
