@@ -134,7 +134,7 @@ function CreateRestaurantDataset() {
                                                         fields.push({ Name: data[i].name, Latitude: latitude, Longitude: longitude, Address: Address, PhoneNo: PhoneNo, RatingCount: RatingCount, StarRating: StarRating, CompetitorsCount: Competitors, ShoppingMallsCount: ShoppingMallsCount, EducationRelatedPlacesCount: EducationRelatedPlacesCount, WorkPlacesCount: WorkPlacesCount, DistanceToCity: DistanceToCity, OpeningHours: Opening, ClosingHours: Closing, Delivery: Delivery, Website: Website, Rating: Number(Rating) })
                                                         if ((fields.length + count) == data.length) {
                                                             console.log("fields", fields)
-                                                            csvExporter.generateCsv(fields);
+                                                            // csvExporter.generateCsv(fields);
                                                         }
                                                     })
                                                     .catch(function (error) {
