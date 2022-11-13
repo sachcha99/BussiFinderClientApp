@@ -21,16 +21,16 @@ import SystemUpdateAltRoundedIcon from '@mui/icons-material/SystemUpdateAltRound
 import { padding } from "@mui/system";
 import GaugeChart from 'react-gauge-chart'
 import { Chart } from "react-google-charts";
-import { Bar } from 'react-chartjs-2';
-import {
-    Chart as ChartJS,
-    CategoryScale,
-    LinearScale,
-    BarElement,
-    Title,
-    Tooltip,
-    Legend,
-} from 'chart.js';
+// import { Bar } from 'react-chartjs-2';
+// import {
+//     Chart as ChartJS,
+//     CategoryScale,
+//     LinearScale,
+//     BarElement,
+//     Title,
+//     Tooltip,
+//     Legend,
+// } from 'chart.js';
 import { FaUmbrellaBeach } from 'react-icons/fa';
 import { AiOutlineWifi } from 'react-icons/ai';
 import { MdOutlinePool } from 'react-icons/md';

@@ -3,7 +3,7 @@ import React from 'react'
 import CSVReader from 'react-csv-reader'
 import API from './api';
 import { CSVLink } from "react-csv";
-import { ExportToCsv } from 'export-to-csv-file';
+// import { ExportToCsv } from 'export-to-csv-file';
 
 function CreateRestaurantDataset() {
     const options = {
@@ -20,7 +20,7 @@ function CreateRestaurantDataset() {
     let fields = []
     let headers = []
 
-    const csvExporter = new ExportToCsv(options);
+    // const csvExporter = new ExportToCsv(options);
 
     const handleForce = async (data, fileInfo) => {
         let ShoppingMallsCount;
